@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.gnz.blog.test.ArticleServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.612 s - in com.gnz.blog.test.ArticleServiceTest

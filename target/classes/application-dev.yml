@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 200082
+  redis:
+    host: 101.200.178.73
+    port: 8379
+logging:
+  level:
+    com.gnz.blog.dao: trace
+setting:
+  path: D:/Software/ideaProject/blog/blog/blog.setting
+qiniu:
+  server: http://upload-z1.qiniup.com
+  url: http://gnzblog.letyougowiththewind.cn/
+  access-key: d86jBF-FPvRutQDVXDTmMzRh3zSgNfFhNJwwPFwg
+  secret-key: ooRvDEvwU6QDPOpM2tyuuY6d0T3IyhZqG9_qx12y
+  bucket: gnzblog

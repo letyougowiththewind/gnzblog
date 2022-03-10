@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: xxx
+    password: xxx
+  redis:
+    host: 
+    port: 
+logging:
+  level:
+    com.gnz.blog.dao: trace
+setting:
+  path: D:/Software/ideaProject/blog/blog/blog.setting
+qiniu:
+  server: 
+  url: 
+  access-key: 
+  secret-key: 
+  bucket: 
